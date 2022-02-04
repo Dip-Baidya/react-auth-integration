@@ -12,6 +12,7 @@ const Header = () => {
             <Link to = "/shipping">Shipping</Link>
             <Link to="/register">Register</Link>
             <Link to="/login">Login</Link>
+            <Link to="/placeorder">PlaceOrder</Link>
             
             <span>{user.displayName}</span>
             {user?.displayName && <button onClick={logOut}>Log out</button>}
